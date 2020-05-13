@@ -41,6 +41,7 @@ yarn-error.log
 testem.log
 /typings
 
+/poto-poto-webClient/node_modules/
 # System Files
 .DS_Store
 Thumbs.db

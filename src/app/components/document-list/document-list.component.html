@@ -1,0 +1,22 @@
+<h1>Documents</h1>
+
+<table border="1">
+  <thead>
+  <tr>
+    <th></th>
+    <th>NOM DU DOCUMENT</th>
+    <th>DESCRIPTION</th>
+    <th>PRIX</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let document of documents">
+    <td>
+      <img [src]="document.imageUrl"  height="50">
+    </td>
+    <td>{{document.documentName}}</td>
+    <td>{{document.descriptionName}}</td>
+    <td>{{document.price}}</td>
+  </tr>
+  </tbody>
+</table>
